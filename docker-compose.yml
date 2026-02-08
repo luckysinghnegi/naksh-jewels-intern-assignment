@@ -1,0 +1,16 @@
+services:
+  backend:
+    build: ./server
+    container_name: naksh-server
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./server/.env
+
+  frontend:
+    build: ./frontend
+    container_name: naksh-frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
