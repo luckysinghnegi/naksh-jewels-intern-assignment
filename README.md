@@ -62,6 +62,18 @@ Backend will run at: http://localhost:3000
 - Dockerized setup
 
 ---
+✅ Screenshots
+Product Listing Page
+
+Cart Page
+
+Products API Response
+
+Cart API Response
+
+Docker Containers Running
+
+Application Running via Docker
 
 ## Author
 
